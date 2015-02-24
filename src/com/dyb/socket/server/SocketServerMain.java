@@ -37,6 +37,9 @@ public class SocketServerMain {
 		}
 	}
 	
+	/**
+	 * 初始化上传文件的保存目录
+	 */
 	private static void initPath() {
 		File file = new File(SERVER_SAVE_BASE_PATH);
 		if(!file.exists()){
